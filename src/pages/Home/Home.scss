@@ -1,0 +1,84 @@
+.home {
+    background-color: #212121;
+
+    .images {
+        position: relative;
+
+        .memoji {
+            align-items: center;
+            justify-content: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5vh;
+            width: 17%;
+        }
+
+        .AI {
+            .AI_img {
+                position: absolute;
+                right: 0;
+                left: 65%;
+                top: 60%;
+                width: 14vw;
+            }
+        }
+
+        .UIUX {
+            .UIUX_img {
+                position: absolute;
+                left: 25%;
+                width: 6vw;
+                right: 0;
+                top: 40%;
+            }
+        }
+
+        .Web {
+            .Web_img {
+                position: absolute;
+                width: 14vw;
+                right: 0;
+                left: 22%;
+                top: 75%;
+            }
+        }
+    }
+
+    .text {
+        text-align: center;
+        color: #fff;
+
+        .name {
+            margin-top: 25px;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .incoming {
+            color: #b5b5b5;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: #b5b5b5;
+                cursor: pointer;
+            }
+        }
+
+        .desc {
+            margin-top: 45px;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+
+    .gif {
+        .gif_img {
+            position: fixed;
+            width: 5%;
+            right: 10px;
+            bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,165 @@
+.Experience{
+    background-color:#212121;
+    overflow: auto;
+    h1{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        // padding-top: 40px;
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    .cards{
+        // display: grid;
+        // position: relative;
+        // justify-content: space-between;
+        // // grid-template-columns: repeat(3,0.5fr);
+        // // grid-template-rows: 100px;
+        // // grid-auto-rows: minmax(100px, auto);
+        // // gap: 10px;
+        // align-items: center;
+        // min-width: none;
+        // top: 17%;
+        // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        // grid-auto-rows: 50vh;
+        // box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        >*{
+            // flex: 1 1 100px;
+              border-radius: 5px;
+              margin-top: 50px;
+              padding: 10px 20px;
+            // padding-left: 50px;
+            // padding-right:50px;
+            // padding-top: 50px;
+            // padding-bottom: 50px;
+        }
+        .card{
+            // margin: auto;
+            // background-color:rgba(99, 99, 99, 0.5);
+            // border: 1.5px solid rgba(99,99,99,0.5);
+            background: linear-gradient(225deg, #1e1e1e, #232323);
+            box-shadow:  -10px 10px 20px #1d1d1d,
+            10px -10px 20px #252525;
+            // opacity: 0.5;
+            min-width: 10vh;
+            // height: 45vh;
+            margin-left: 10vh;
+            margin-right: 10vh;
+            // padding: 10px;
+            max-width: 250px;
+            border-radius: 19px;
+            img{
+                margin: 0 auto;
+                opacity: 1;
+                max-width: 50px;
+                margin-bottom: 0;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+            .name{
+                font-family: 'SF Pro Display';
+                text-align: center;
+                
+                h3{
+                    margin-top: 8px;
+                    margin-bottom: 0;
+                    color: #fff;
+                    font-size: 20px;
+                }
+                h4{
+                    color: #D6D6D6;
+                    font-weight:400;
+                    margin-top: 2px;
+                    font-size: 15px;
+                    margin-bottom: 0;
+                }
+                h5{
+                    color: #D6D6D6;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    margin-top: 2px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+            p{
+                color: #fff;
+                font-style: normal;
+                font-weight: 300;
+                text-align: center;
+                justify-content: center;
+                margin-bottom: 14%;
+                margin-top: 6%;
+            }
+            .tags{
+                // max-width: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                // display:inline-flex;
+                display: flex;
+                flex-wrap: wrap;
+                .tag {
+                    white-space:nowrap;
+                    padding: 4px 8px;
+                    border: 0.6px solid #e5eaed;
+                    margin-left: 3.5px;
+                    margin-right: 3.5px;
+                    margin-bottom: 10px;
+                    // margin-top: 10px;
+                    border-radius: 50px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #fff;
+                    &:hover{
+                        background-color: #fff;
+                        color: #000;
+                        cursor: pointer;
+                    }
+                }
+            }
+                .btn{
+                    border: none;
+                    padding: 6px 19px;
+                    border-radius: 9px;
+                    font-size: 15px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    color: #fff;
+                    // background-color: rgba(99,99,99,0.5);
+                    background: transparent;
+                    border: 1px solid #d9d9d9;
+                    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+                    margin:0 auto;
+                    display: block;
+                    text-decoration: none;
+
+                    /* Button is a clickable element, therefore it should have a pointer cursor */
+                    cursor: pointer;
+                    // &:active{
+                    //     transform: scale(0.98);
+                    //     /* Scaling button to 0.98 to its original size */
+                    //     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+                    //     /* Lowering the shadow */
+                    // }
+                    &:hover{
+                        background-color: #fff;
+                        color: #000;
+                    }
+                    }
+                &:hover{
+                    background: #212121;
+                    box-shadow: inset -10px 10px 20px #1d1d1d,
+                                inset 10px -10px 20px #252525;
+                }
+            }
+            }
+}

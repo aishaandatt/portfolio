@@ -1,0 +1,202 @@
+.Skills{
+    background-color: #212121;
+    overflow: auto;
+    h1{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        // padding-top: 40px;
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    .gifs{
+        display: flex;
+        justify-content: space-between;
+        .design_elem{
+            margin-left: 120px;
+            margin-top: 10px;
+            vertical-align: top;
+            display: inline-block;
+            text-align: center;
+            // width: 120px;
+            .design_gif{
+                object-fit: cover;
+                width: 80%;
+            }
+            .design_text{
+                .text_single{
+                    // display: inline;
+                    // align-items: center;
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 80%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+                .text_single2{
+                    // display: inline;
+                    // align-items: center;
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 65%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+                .text_single3{
+                    // display: inline;
+                    // align-items: center;
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 70%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .dev_elem{
+            margin-right: 120px;
+            margin-top: 10px;
+            vertical-align: top;
+            display: inline-block;
+            text-align: center;
+            .dev_gif{
+                object-fit: cover;
+                width: 80%;
+            }
+            .dev_text{
+                .dtext1{
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 70%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+                .dtext2{
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 84%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+                .dtext3{
+                    h2{
+                        font-size: 2rem;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    .wrapper{
+                        border: 1px solid #b5b5b5;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                    }
+                    .container{
+                        background-color: #b5b5b5;
+                    }
+                    .barCompleted{
+                        background-color: #fff;
+                        width: 90%;
+                        border-radius: 20px;
+                    }
+                    .label{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #212121;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    .elements{
+        .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px;
+            .end{
+                .logo{
+                    .title{
+                        .item{
+                            text-decoration: none;
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .menu{
+                .list{
+                    li{
+                        display: inline-flex;
+                        a{
+                            cursor: pointer;
+                            text-decoration: none;
+                            font-size: 18px;
+                            color: #fff;
+                            margin-left: 7px;
+                            margin-right: 7px;
+                        }
+                        .active{
+                            font-weight: 800;
+                        }
+                        // .itemB{
+                        //     cursor: pointer;
+                        //     text-decoration: none;
+                        //     font-size: 18px;
+                        //     color: #fff;
+                        //     margin-left: 7px;
+                        //     margin-right: 7px;
+                        //     font-weight: bold;
+                        // }
+                    }
+                }
+            }
+            .right{
+                display: flex;
+                justify-content: end;
+                .email{
+                    width: 17%;
+                }
+                .linkedin{
+                    margin-right: 15px;
+                    margin-left: 15px;
+                }
+                .github{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
