@@ -8,7 +8,7 @@
         // padding-top: 40px;
         margin-top: 20px;
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 600;
         letter-spacing: 3px;
     }
     form{
@@ -44,7 +44,7 @@
             font-size: 20px;
             color: #fff;
             width: 8vw;
-            max-width: 8vw;
+            max-width: 18vw;
             margin: 25px auto;
             padding: 10px;
             &:hover{
@@ -54,3 +54,12 @@
         }
     }
 }
+// @media screen and (max-width:600px) {
+//     .Contact{
+//         form{
+//             .btn{
+//                 m
+//             }
+//         }
+//     }
+// }

@@ -9,7 +9,7 @@ import Contact from './pages/Contact/Contact';
 function App() {
   return (
     <div className='app'>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className='sections'>
         <Home />
         <Experience />

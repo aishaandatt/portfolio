@@ -67,6 +67,8 @@
         }
 
         .desc {
+            width: 60%;
+            margin: auto;
             margin-top: 45px;
             font-size: 25px;
             font-weight: 400;
@@ -79,6 +81,44 @@
             width: 5%;
             right: 10px;
             bottom: 30px;
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .home{
+        .images{
+            .memoji{
+                width: 30%;
+            }
+            .AI{
+                .AI_img{
+                    width: 25vw;
+                }
+            }
+            .UIUX{
+                .UIUX_img{
+                    width: 12vw;
+                    left: 15%;
+                }
+            }
+            .Web{
+                .Web_img{
+                    left: 15%;
+                    width: 22vw;
+                }
+            }
+        }
+        .text{
+            .name{
+                font-size: 25px;
+            }
+            .incoming{
+                font-size: 12px;
+            }
+            .desc{
+                font-size: 14px;
+                width: 80%;
+            }
         }
     }
 }
