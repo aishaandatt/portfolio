@@ -26,7 +26,7 @@ const Experience = () => {
                 })}
               </div>
               <p>{element.desc}</p>
-              <a href={element.link} target='_blank'>
+              <a href={element.link} target='_blank' rel="noopener noreferrer">
 
               <button className='btn'>Learn More</button>
               </a>

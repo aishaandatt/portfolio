@@ -48,7 +48,7 @@ const Navbar = () => {
                                 }>Skills</a>
                             </li>
                             <li>
-                                <a href="https://drive.google.com/file/d/1uN0jUKn7zF6jnXP2TD8g9vLm4ZjAnMDI/view?usp=sharing" target='_blank'>Resume</a>
+                                <a href="https://drive.google.com/file/d/1uN0jUKn7zF6jnXP2TD8g9vLm4ZjAnMDI/view?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>
                             </li>
                             <li>
                                 <a href={"#Contact"}

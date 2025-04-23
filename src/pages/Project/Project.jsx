@@ -17,7 +17,7 @@ const Project = () => {
                 <div className='overlay'>
                   <div className='overlay_elements'>
                     <p>{element.desc}</p>
-                    <a href={element.link} target='_blank'>
+                    <a href={element.link} target='_blank' rel="noopener noreferrer">
                       <img className='icon' src={element.icon}/>
                     </a>
                   </div>

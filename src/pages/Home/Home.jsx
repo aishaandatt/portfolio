@@ -18,7 +18,7 @@ const Home = () => {
       <div className='text'>
         <p className='name'>Hi, I'm Aishaan Datt</p>
         <div className='incoming'>
-          <p>Developer Associate at <a href='https://www.sap.com/india/about/labs-india.html' target='_blank'><strong>SAP Labs</strong></a></p>
+          <p>Developer Associate at <a href='https://www.sap.com/india/about/labs-india.html' target='_blank' rel="noopener noreferrer"><strong>SAP Labs</strong></a></p>
         </div>
         <div className='desc'>
           <p>I’m B.Tech Graduate in Computer Science from VIT, Vellore.
