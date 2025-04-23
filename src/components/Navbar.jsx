@@ -1,10 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
 import {useState} from 'react'
-import Home from '../pages/Home/Home'
-import Experience from '../pages/Experience/Experience'
-import Project from '../pages/Project/Project'
-import Skills from '../pages/Skills/Skills'
 const Navbar = () => {
     const [activeNav, setActiveNav] = useState("#")
     return (

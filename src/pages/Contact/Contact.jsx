@@ -1,5 +1,4 @@
-import React,{useRef,useState,useEffect} from 'react'
-import Footer from '../../components/Footer'
+import React,{useRef} from 'react'
 import './Contact.scss'
 import emailjs from 'emailjs-com'
 const Contact = () => {
