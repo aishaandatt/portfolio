@@ -12,7 +12,7 @@ const Experience = () => {
             return(
 
               <div className='card' key={element.id}>
-            <img src={element.img} alt='image'/>
+            <img src={element.img} alt='logos'/>
             <div className='card_details'>
               <div className='name'>
                 <h3>{element.title}</h3>
