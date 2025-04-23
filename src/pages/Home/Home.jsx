@@ -18,12 +18,12 @@ const Home = () => {
       <div className='text'>
         <p className='name'>Hi, I'm Aishaan Datt</p>
         <div className='incoming'>
-          <p>Incoming Advance Application Engineer Analyst at <a href='https://www.accenture.com/in-en' target='_blank'><strong>Accenture</strong></a></p>
+          <p>Developer Associate at <a href='https://www.sap.com/india/about/labs-india.html' target='_blank'><strong>SAP Labs</strong></a></p>
         </div>
         <div className='desc'>
-          <p>I’m a Final Year Student at VIT, Vellore pursuing my
-            B.Tech in Computer Science with Spl. in IoT. My skills are primarily in
-            Artificial intelligence and Web Development. I’m also very good at Sports.</p>
+          <p>I’m B.Tech Graduate in Computer Science from VIT, Vellore.
+            My skills are primarily in Artificial intelligence and Web Development. 
+            I’m also very good at Sports.</p>
         </div>
       </div>
       {/* <div className='gif'>
