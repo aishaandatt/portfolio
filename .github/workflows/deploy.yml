@@ -3,14 +3,17 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' if that's your main branch
+      - main  # Change if your main branch has a different name
+
+permissions:
+  contents: write  # Required to push to gh-pages
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -21,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build the app
+      - name: Build project
         run: npm run build
 
       - name: Deploy to GitHub Pages
@@ -29,3 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          publish_branch: gh-pages
