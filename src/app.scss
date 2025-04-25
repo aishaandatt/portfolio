@@ -6,8 +6,8 @@
     background-color: darkgreen;
     // position: relative;
     // top: 70px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    // scroll-behavior: smooth; 
+    // scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox
     &::-webkit-scrollbar {
       display: none;
