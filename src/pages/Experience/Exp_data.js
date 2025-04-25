@@ -1,15 +1,16 @@
 const Exp_data = [
     {
-        id: 1,
-        title: 'Video Editor Intern',
-        company: 'Ashva Wear Tech',
-        date: '07/2021 - 09/2021',
-        desc: 'Made Infographic Animated Videos for the publicity of the launch of their latest product.',
-        tags: [
-            'Video', 'Adobe', 'After Effects', 'Animation'
+        id:1,
+        title:"Advanced App Engineering Analyst",
+        company:"Accenture",
+        desc:"Worked on a Event Managment tool using Python, AWS, GraphQL and SQL.",
+        date:"08/2023 - 04/2025",
+        tags:[
+            "Python","AWS","GraphQL","Serverless","SQL","ReactJS"
         ],
-        img: "assets/ashva.png",
-        link: 'https://drive.google.com/drive/folders/1K5fsavWrzyOpGLsUfzGSbn4Mj4MM7LDU?usp=sharing'
+        img:"assets/Accenture-Logo.png",
+        link:"https://accenture.com"
+
     },
     {
         id: 2,
@@ -33,6 +34,18 @@ const Exp_data = [
         img: "assets/iete.png",
         link: 'https://www.instagram.com/iete_vit/'
 
+    },
+    {
+        id: 4,
+        title: 'Video Editor Intern',
+        company: 'Ashva Wear Tech',
+        date: '07/2021 - 09/2021',
+        desc: 'Made Infographic Animated Videos for the publicity of the launch of their latest product.',
+        tags: [
+            'Video', 'Adobe', 'After Effects', 'Animation'
+        ],
+        img: "assets/ashva.png",
+        link: 'https://drive.google.com/drive/folders/1K5fsavWrzyOpGLsUfzGSbn4Mj4MM7LDU?usp=sharing'
     },
 ]
 export default Exp_data
