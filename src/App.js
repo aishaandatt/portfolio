@@ -11,6 +11,7 @@ function App() {
         <Home />
         <Experience />
         <Project />
+        {/* hrllo */}
         <Skills />
         <Contact />
       </div>
